@@ -11,3 +11,6 @@ gfkghbcgcgh
 
 # ghgdytrghdtygit 
 ghcsavghscjcvb  b hjc  c vhj s  jh
+svahgdvbn, asCFKYTc bfvtg  ytkdcvb hmgasghCsfut  /
+;trdcbkcgs7gMNC./c\ytdfgh kcgiuybd c.
+bjduy mcasdgfiyv s
