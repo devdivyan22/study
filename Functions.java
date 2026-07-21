@@ -741,36 +741,141 @@ package study;
 
 
 
-public class Pattern {
+// public class Pattern {
+//     public static void main(String[] args) {
+//         int n=5;
+
+//         // upper half
+//         for (int i=1; i<=n; i++) {
+//             // spaces
+//             for (int j=1; j<=n-i; j++) {
+//                 System.out.print(" ");
+//             }
+
+//             // stars
+//             for (int j=1; j<=(2*i)-1; j++) {
+//                 System.out.print("*");
+//             }
+//             System.out.println();
+//         }
+
+//         // lower half
+//         for (int i=n; i>=1; i--) {
+//             // spaces
+//             for (int j=1; j<=n-i; j++) {
+//                 System.out.print(" ");
+//             }
+
+//             // stars
+//             for (int j=1; j<=(2*i)-1; j++) {
+//                 System.out.print("*");
+//             }
+//             System.out.println();
+//         }
+//     }
+// }
+
+
+
+
+
+
+//                      PRINT THE NAME BY FUNCTION
+
+
+
+
+// import java.util.*;
+
+// public class Functions {
+//     public static void printMyName(String name) {
+//         System.out.println(name);
+//         return;
+//     }
+
+//     public static void main(String[] args) {
+//         Scanner sc = new Scanner(System.in);
+//         String name = sc.nextLine();
+//         printMyName(name);
+//     }
+// }
+
+
+
+
+
+
+//       MAKE A FUNCTION TO ADD 2 NO. AND RETURN THE SUM
+
+
+// import java.util.*;
+
+// public class Functions {
+//     public static int addTwoNumbers(int a, int b) {
+//         int sum = a + b;
+//         return sum;
+//     }
+
+//     public static void main(String[] args) {
+//         Scanner sc = new Scanner(System.in);
+//         int num1 = sc.nextInt();
+//         int num2 = sc.nextInt();
+//         int result = addTwoNumbers(num1, num2);
+//         System.out.println(result);
+//     }
+// }
+
+
+
+
+//.         MAKE A FUNCTION TO MULTIPLY 2 NO. AND RETURN THE PRODUCT
+
+
+// import java.util.*;
+
+// public class Functions {
+//     public static int multiplyTwoNumbers(int a, int b) {
+//         int product = a * b;
+//         return product;
+//     }
+
+//     public static void main(String[] args) {
+//         Scanner sc = new Scanner(System.in);
+//         int num1 = sc.nextInt();
+//         int num2 = sc.nextInt();
+//         int result = multiplyTwoNumbers(num1, num2);
+//         System.out.println(result);
+//     }
+// }
+
+
+
+
+//.    find the factorial of a number using function
+
+
+import java.util.*;
+
+public class Functions {
+    public static int factorial(int n) {
+
+        if (n < 0)
+            {
+            
+                System.out.println("Factorial is not defined for negative numbers.");
+                return -1; // Return -1 to indicate an error
+            }
+        int fact = 1;
+        for (int i = 1; i <= n; i++) {
+            fact *= i;
+        }
+        return fact;
+    }
+
     public static void main(String[] args) {
-        int n=5;
-
-        // upper half
-        for (int i=1; i<=n; i++) {
-            // spaces
-            for (int j=1; j<=n-i; j++) {
-                System.out.print(" ");
-            }
-
-            // stars
-            for (int j=1; j<=(2*i)-1; j++) {
-                System.out.print("*");
-            }
-            System.out.println();
-        }
-
-        // lower half
-        for (int i=n; i>=1; i--) {
-            // spaces
-            for (int j=1; j<=n-i; j++) {
-                System.out.print(" ");
-            }
-
-            // stars
-            for (int j=1; j<=(2*i)-1; j++) {
-                System.out.print("*");
-            }
-            System.out.println();
-        }
+        Scanner sc = new Scanner(System.in);
+        int num = sc.nextInt();
+        int result = factorial(num);
+        System.out.println(result);
     }
 }
